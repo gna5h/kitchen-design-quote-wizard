@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.step-breadcrumb {
+    @apply flex max-w-lg mx-auto my-5 px-5 py-3 text-[#333333] border border-[#f7f7f7] bg-[#f7f7f7];
+}
+.step-form {
+    @apply max-w-lg mx-auto p-6 bg-[#f7f7f7];
+}
+.step-textfield-container {
+    @apply mb-5;
+}
+.step-label {
+    @apply block mb-2 text-sm font-medium text-[#333333];
+}
+.step-input {
+    @apply shadow-sm bg-white border border-[#E0E0E0] text-[#333333] text-sm focus:ring-[#333333] focus:border-[#333333] outline-none block w-full p-2.5;
+}
+.step-select {
+    @apply bg-white border border-[#E0E0E0] text-[#333333] text-sm focus:ring-[#333333] focus:border-[#333333] outline-none block w-full p-2.5;
+}
+.step-color {
+    @apply shadow-sm bg-white border border-[#E0E0E0] text-[#333333] text-sm focus:ring-[#333333] focus:border-[#333333] outline-none block w-full p-2.5 appearance-none cursor-pointer;
+}
+.step-button-container {
+    @apply flex;
+}
+.step-button {
+    @apply ms-auto py-2.5 px-5 me-2 mb-2 text-sm font-medium text-[#333333] focus:outline-none bg-white border border-[#E0E0E0] hover:bg-[#6484A6] hover:border-[#333333] hover:text-white focus:z-10 focus:ring-1 focus:ring-[#333333];
+}
