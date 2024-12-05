@@ -47,8 +47,8 @@
             <input type="color" id="color-preference" name="color" class="step-input h-52" required />
         </div>
 
-        <div class="step-button-container">
-            <button class="step-button">Next</button>
-        </div>
+        <div class="step-button-container flex">
+            <button class="step-button w-1/2 ml-auto">Next</button>
+        </div>        
     </form>
 </x-layout>
