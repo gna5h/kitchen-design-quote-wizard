@@ -1,18 +1,18 @@
 <x-layout>
     <!-- Breadcrumb -->
     <nav class="step-breadcrumb" aria-label="Breadcrumb">
-        <ol class="inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse">
-            <li class="inline-flex items-center">
-                <a href="{{ route('wizard.step1') }}" class="inline-flex items-center text-sm font-medium text-[#6484A6] hover:text-[#333333]">
+        <ol class="step-ol">
+            <li class="step-li">
+                <a href="{{ route('wizard.step1') }}" class="step-li-a-left">
                     Kitchen Basics
                 </a>
             </li>
             <li>
-                <div class="flex items-center">
+                <div class="step-li-a-container">
                     <svg class="rtl:rotate-180 block w-3 h-3 mx-1 text-gray-400 " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
                     </svg>
-                    <a href="{{ route('wizard.step2') }}" class="ms-1 text-sm font-medium text-[#333333] hover:text-[#6484A6]">
+                    <a href="{{ route('wizard.step2') }}" class="step-li-a-right">
                         Contact & Quote
                     </a>
                 </div>

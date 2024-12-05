@@ -5,6 +5,21 @@
 .step-breadcrumb {
     @apply flex max-w-lg mx-auto my-5 px-5 py-3 text-[#333333] border border-[#f7f7f7] bg-[#f7f7f7];
 }
+.step-ol {
+    @apply inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse;
+}
+.step-li {
+    @apply inline-flex items-center;
+}
+.step-li-a-left {
+    @apply inline-flex items-center text-sm font-medium text-[#6484A6] hover:text-[#333333];
+}
+.step-li-a-container {
+    @apply flex items-center;
+}
+.step-li-a-right {
+    @apply ms-1 text-sm font-medium text-[#333333] hover:text-[#6484A6];
+}
 .step-form {
     @apply max-w-lg mx-auto p-6 bg-[#f7f7f7];
 }
