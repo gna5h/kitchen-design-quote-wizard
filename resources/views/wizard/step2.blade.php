@@ -22,17 +22,17 @@
 
     <div class="step-form mb-5">
         <div class="step-textfield-container !mb-0">
-            <label for="summary" class="step-label">Summary</label>
+            <label for="summary" class="step-title">Summary</label>
             
             <hr class="step-horizontal-line">
 
             <div class="step-summary-selection-container">
                 <p>Dimensions</p>
-                <p>{{ $kitchen['length'] }} ft x {{ $kitchen['width'] }} ft</p>
+                <p class="font-semibold">{{ $kitchen['length'] }} ft x {{ $kitchen['width'] }} ft</p>
             </div>
             <div class="step-summary-selection-container">
                 <p>Layout</p>
-                <p>{{ $kitchen['layout'] }}</p>
+                <p class="font-semibold">{{ $kitchen['layout'] }}</p>
             </div>
             <div class="step-summary-selection-container flex-col gap-2">
                 <p>Color</p>
@@ -42,8 +42,8 @@
             <hr class="step-horizontal-line">
 
             <div class="step-summary-selection-container">
-                <label for="total" class="step-label">Total</label>
-                <p>${{ $quote }}</p>
+                <label for="total" class="step-title">Total</label>
+                <p class="step-title">${{ $quote }}</p>
             </div>
         </div>
     </div>
@@ -51,7 +51,7 @@
     <form class="step-form" method="POST" action="{{ route('wizard.step2') }}">
         @csrf
 
-        <label for="summary" class="step-label">Personal Details</label>
+        <label for="summary" class="step-title">Personal Details</label>
 
         <hr class="step-horizontal-line">
 

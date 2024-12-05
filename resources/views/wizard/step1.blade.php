@@ -23,6 +23,10 @@
     <form class="step-form" method="POST" action="{{ route('wizard.step1') }}">
         @csrf
 
+        <label for="kitchen" class="step-title">Kitchen</label>
+
+        <hr class="step-horizontal-line">
+
         <div class="step-textfield-container">
             <label for="length" class="step-label">Length (ft)</label>
             <input type="number" id="length" name="length" class="step-input" required />
@@ -47,7 +51,10 @@
             <input type="color" id="color-preference" name="color" class="step-input h-52" required />
         </div>
 
+        <hr class="step-horizontal-line">
+
         <div class="step-button-container flex">
+
             <button class="step-button w-1/2 ml-auto">Next</button>
         </div>        
     </form>

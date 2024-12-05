@@ -32,6 +32,9 @@
 .step-textfield-container {
     @apply mb-5;
 }
+.step-title {
+    @apply block mb-2 text-lg font-medium text-[#333333];
+}
 .step-label {
     @apply block mb-2 text-sm font-medium text-[#333333];
 }
