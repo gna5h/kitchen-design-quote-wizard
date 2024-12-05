@@ -2,8 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.step-navbar {
+    @apply bg-[#f7f7f7] fixed w-full z-20 top-0 start-0 border-b border-[#333333];
+}
 .step-breadcrumb {
-    @apply flex max-w-lg mx-auto my-5 px-5 py-3 text-[#333333] border border-[#f7f7f7] bg-[#f7f7f7];
+    @apply flex max-w-lg mx-auto mt-24 my-5 px-5 py-3 text-[#333333] border border-[#f7f7f7] bg-[#f7f7f7];
 }
 .step-ol {
     @apply inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse;
@@ -21,7 +24,7 @@
     @apply ms-1 text-sm font-medium text-[#333333] hover:text-[#6484A6];
 }
 .step-form {
-    @apply max-w-lg mx-auto p-6 bg-[#f7f7f7];
+    @apply max-w-lg mx-auto p-5 bg-[#f7f7f7];
 }
 .step-textfield-container {
     @apply mb-5;
