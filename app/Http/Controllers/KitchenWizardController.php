@@ -25,4 +25,23 @@ class KitchenWizardController extends Controller
         
         return redirect()->route('wizard.step2');
     }
+
+    public function showStep2(Request $request)
+    {
+        $kitchen = $request->session()->get('kitchen');
+        $squareFootage = $kitchen['length'] * $kitchen['width'];
+        $quote = $squareFootage * 50; // Example calculation
+
+        return view('wizard.step2', compact('kitchen', 'quote'));
+    }
+
+    public function processStep2(Request $request)
+    {
+        $request->validate([
+            'email' => 'required|email',
+            'name' => 'required|string',
+        ]);
+
+        return redirect()->route('wizard.step1')->with('success', 'Your request has been submitted!');
+    }
 }

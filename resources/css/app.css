@@ -6,7 +6,7 @@
     @apply bg-[#f7f7f7] fixed w-full z-20 top-0 start-0 border-b border-[#333333];
 }
 .step-breadcrumb {
-    @apply flex max-w-lg mx-auto mt-24 my-5 px-5 py-3 text-[#333333] border border-[#f7f7f7] bg-[#f7f7f7];
+    @apply flex max-w-lg mx-auto my-5 px-5 py-3 text-[#333333] border border-[#f7f7f7] bg-[#f7f7f7];
 }
 .step-ol {
     @apply inline-flex items-center space-x-1 md:space-x-2 rtl:space-x-reverse;
@@ -15,13 +15,16 @@
     @apply inline-flex items-center;
 }
 .step-li-a-left {
-    @apply inline-flex items-center text-sm font-medium text-[#6484A6] hover:text-[#333333];
+    @apply inline-flex items-center text-sm font-medium text-[#333333] hover:text-[#6484A6];
 }
 .step-li-a-container {
     @apply flex items-center;
 }
 .step-li-a-right {
     @apply ms-1 text-sm font-medium text-[#333333] hover:text-[#6484A6];
+}
+.step-li-active {
+    @apply text-[#6484A6] hover:text-[#333333];
 }
 .step-form {
     @apply max-w-lg mx-auto p-5 bg-[#f7f7f7];
@@ -46,4 +49,22 @@
 }
 .step-button {
     @apply ms-auto py-2.5 px-5 me-2 mb-2 text-sm font-medium text-[#333333] focus:outline-none bg-white border border-[#E0E0E0] hover:bg-[#6484A6] hover:border-[#333333] hover:text-white focus:z-10 focus:ring-1 focus:ring-[#333333];
+}
+.step-horizontal-line {
+    @apply h-px my-5 bg-[#E9E9E9] border-0;
+}
+.step-summary-selection-container {
+    @apply flex justify-between text-sm text-[#333333] mt-2;
+}
+.step-toast-container {
+    @apply max-w-lg mx-auto mt-20;
+}
+.step-toast {
+    @apply flex items-center w-full max-w-lg p-4 space-x-4 rtl:space-x-reverse text-gray-500 bg-white divide-x rtl:divide-x-reverse divide-gray-200 rounded-lg shadow;
+}
+.step-toast-icon-container {
+    @apply inline-flex items-center justify-center flex-shrink-0 w-8 h-8 text-green-500 bg-green-100 rounded-lg dark:bg-green-800 dark:text-green-200;
+}
+.step-toast-message-container {
+    @apply ps-4 text-sm font-normal;
 }
