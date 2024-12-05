@@ -62,3 +62,9 @@
 .step-toast {
     @apply flex items-center w-full max-w-lg p-4 space-x-4 rtl:space-x-reverse text-gray-500 bg-white divide-x rtl:divide-x-reverse divide-gray-200 rounded-lg shadow;
 }
+.step-toast-icon-container {
+    @apply inline-flex items-center justify-center flex-shrink-0 w-8 h-8 text-green-500 bg-green-100 rounded-lg dark:bg-green-800 dark:text-green-200;
+}
+.step-toast-message-container {
+    @apply ps-4 text-sm font-normal;
+}
