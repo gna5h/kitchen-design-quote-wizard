@@ -83,10 +83,11 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 #### Verify Installation:
 
 -   Open **Command Prompt** or **PowerShell** and run:
-`bash
+    ```bash
     node -v
     npm -v
-    `
+    ```
+
 </details>
 
 <details>
