@@ -51,7 +51,7 @@
     <form class="step-form" method="POST" action="{{ route('wizard.step2') }}">
         @csrf
 
-        <label for="summary" class="step-title">Personal Details</label>
+        <label for="summary" class="step-title">Contact Details</label>
 
         <hr class="step-horizontal-line">
 
