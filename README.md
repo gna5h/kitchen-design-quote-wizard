@@ -182,14 +182,25 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
     npm install
     ```
 
-### 4. Migrate the Database
+### 4. Configure Environment
+
+-   Duplicate the .env.example file:
+    ```bash
+    cp .env.example .env
+    ```
+-   Generate the application key:
+    ```bash
+    php artisan key:generate
+    ```
+
+### 5. Migrate the Database
 
 -   Run the following command to apply the database migrations:
     ```bash
     php artisan migrate
     ```
 
-### 5. Run the Laravel Application
+### 6. Run the Laravel Application
 
 -   Start the Laravel development server by running:
 
