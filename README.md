@@ -27,22 +27,22 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ### On Windows
 
-#### - Download PHP:
+#### Download PHP:
 
 -   Visit the [official PHP website](https://www.php.net/).
 -   Download the latest thread-safe version of PHP.
 
-#### - Extract PHP:
+#### Extract PHP:
 
 -   Extract the downloaded ZIP file to a directory, e.g., `C:\php`.
 
-#### - Add PHP to System Path:
+#### Add PHP to System Path:
 
 -   Open **Control Panel** > **System** > **Advanced System Settings** > **Environment Variables**.
 -   Under **System variables**, find the `Path` variable, select it, and click **Edit**.
 -   Add the path to the PHP folder (e.g., `C:\php`).
 
-#### - Verify Installation:
+#### Verify Installation:
 
 -   Open **Command Prompt** or **PowerShell** and run:
     ```bash
@@ -51,21 +51,21 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ### On Mac
 
-#### - Install Homebrew (if not already installed):
+#### Install Homebrew (if not already installed):
 
 -   Open the Terminal and run:
     ```bash
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
 
-#### - Install PHP:
+#### Install PHP:
 
 -   Run the following command:
     ```bash
     brew install php
     ```
 
-#### - Verify installation:
+#### Verify installation:
 
 -   Check the installed PHP version:
     ```bash
@@ -80,19 +80,19 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ### On Windows
 
-#### - Download Composer Installer:
+#### Download Composer Installer:
 
 -   Visit the [Composer download page](https://getcomposer.org/download/).
 -   Click on **Composer-Setup.exe** to download the installer.
 
-#### - Run the Installer:
+#### Run the Installer:
 
 -   Launch the downloaded `Composer-Setup.exe`.
 -   During the installation:
     -   Select the path to `php.exe` (e.g., `C:\php\php.exe`).
     -   Ensure the option **Add Composer to PATH** is selected.
 
-#### - Verify Installation:
+#### Verify Installation:
 
 -   Open **Command Prompt** or **PowerShell** and run:
     ```bash
@@ -124,12 +124,12 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ### On Windows
 
-#### - Download Node.js:
+#### Download Node.js:
 
 -   Visit the Node.js official website.
 -   Download and install the LTS version.
 
-#### - Verify Installation:
+#### Verify Installation:
 
 -   Open **Command Prompt** or **PowerShell** and run:
     ```bash
@@ -139,17 +139,32 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ### On Mac
 
-#### - Install PHP:
+#### Install PHP:
 
 -   Install Node.js with Homebrew:
     ```bash
     brew install node
     ```
 
-#### - Verify installation:
+#### Verify installation:
 
 -   Check the installed version:
     ```bash
     node -v
     npm -v
     ```
+
+## Assumptions Made
+
+-   The app is designed to run on PHP version 8.1 or higher and utilizes Composer for dependency management.
+-   Node.js and npm (or Yarn) are required for managing front-end assets such as JavaScript and CSS.
+-   MySQL database is used for storing application data, and database migrations are assumed to be run on setup.
+-   The user is expected to navigate the app sequentially through a wizard-style interface, filling out various forms.
+-   Default Laravel error handling (validation, CSRF protection) is used to secure user input and manage errors.
+
+## Brief Explanation of Technical Choices
+
+-   **Framework**: Laravel was chosen due to its robustness and rapid development features. It provides built-in tools like Eloquent ORM, Blade templating, and Artisan commands, which streamline common tasks like database migrations, authentication, and routing.
+-   **Database**: MySQL was selected as the database for its widespread usage, ease of setup, and compatibility with Laravel’s built-in database features.
+-   **Front-end**: Blade templating was used to efficiently generate dynamic HTML, while Tailwind CSS was chosen for styling due to its utility-first approach, making it easy to customize and responsive.
+-   **Testing**: PHPUnit was used for unit testing to ensure that the application logic works correctly. Feature tests were written for major user interactions to ensure that the app functions as expected across different environments.
