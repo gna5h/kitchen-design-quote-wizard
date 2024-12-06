@@ -28,59 +28,59 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 <details>
 <summary>On Windows</summary>
 
-### 1. Install PHP
+#### 1. Install PHP
 
-#### Download PHP:
+##### Download PHP:
 
 -   Visit the [official PHP website](https://www.php.net/).
 -   Download the latest thread-safe version of PHP.
 
-#### Extract PHP:
+##### Extract PHP:
 
 -   Extract the downloaded ZIP file to a directory, e.g., `C:\php`.
 
-#### Add PHP to System Path:
+##### Add PHP to System Path:
 
 -   Open **Control Panel** > **System** > **Advanced System Settings** > **Environment Variables**.
 -   Under **System variables**, find the `Path` variable, select it, and click **Edit**.
 -   Add the path to the PHP folder (e.g., `C:\php`).
 
-#### Verify Installation:
+##### Verify Installation:
 
 -   Open **Command Prompt** or **PowerShell** and run:
     ```bash
     php -v
     ```
 
-### 2. Install Composer
+#### 2. Install Composer
 
-#### Download Composer Installer:
+##### Download Composer Installer:
 
 -   Visit the [Composer download page](https://getcomposer.org/download/).
 -   Click on **Composer-Setup.exe** to download the installer.
 
-#### Run the Installer:
+##### Run the Installer:
 
 -   Launch the downloaded `Composer-Setup.exe`.
 -   During the installation:
     -   Select the path to `php.exe` (e.g., `C:\php\php.exe`).
     -   Ensure the option **Add Composer to PATH** is selected.
 
-#### Verify Installation:
+##### Verify Installation:
 
 -   Open **Command Prompt** or **PowerShell** and run:
     ```bash
     composer -v
     ```
 
-### 3. Install Node.js
+#### 3. Install Node.js
 
-#### Download Node.js:
+##### Download Node.js:
 
 -   Visit the [Node.js official website](https://nodejs.org/en).
 -   Download and install the LTS version.
 
-#### Verify Installation:
+##### Verify Installation:
 
 -   Open **Command Prompt** or **PowerShell** and run:
     ```bash
@@ -93,23 +93,23 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 <details>
 <summary>On Mac</summary>
 
-### 1. Install PHP
+#### 1. Install PHP
 
-#### Install Homebrew (if not already installed):
+##### Install Homebrew (if not already installed):
 
 -   Open the Terminal and run:
     ```bash
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
 
-#### Install PHP:
+##### Install PHP:
 
 -   Run the following command:
     ```bash
     brew install php
     ```
 
-#### Verify installation:
+##### Verify installation:
 
 -   Check the installed PHP version:
     ```bash
@@ -120,9 +120,9 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
     brew link php
     ```
 
-### 2. Install Composer
+#### 2. Install Composer
 
-#### Install Composer Globally:
+##### Install Composer Globally:
 
 -   Open the Terminal and run the following commands:
     -   Step 1: Download the Composer installer:
@@ -134,21 +134,21 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
         sudo mv composer.phar /usr/local/bin/composer
         ```
 
-#### Verify Installation:
+##### Verify Installation:
 
 -   Open **Command Prompt** or **PowerShell** and run:
     ```bash
     composer -v
     ```
 
-### 3. Install Node.js
+#### 3. Install Node.js
 
 -   Install Node.js with Homebrew:
     ```bash
     brew install node
     ```
 
-#### Verify installation:
+##### Verify installation:
 
 -   Check the installed version:
 `bash
