@@ -161,7 +161,20 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
     npm -v
     ```
 
-### 4. Install Dependencies
+### 5. Clone the Repository
+
+-   Run the Command::
+
+    ```bash
+    git clone <repository-url>
+    ```
+
+-   Navigate to the Project Directory:
+    ```bash
+    cd <project-folder>
+    ```
+
+### 6. Install Dependencies
 
 -   Open **Command Prompt** or **PowerShell** and install PHP dependencies using Composer:
 
@@ -174,14 +187,14 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
     npm install
     ```
 
-### 5. Migrate the Database
+### 7. Migrate the Database
 
 -   Run the following command to apply the database migrations:
     ```bash
     php artisan migrate
     ```
 
-### 6. Run the Laravel Application
+### 8. Run the Laravel Application
 
 -   Start the Laravel development server by running:
 
