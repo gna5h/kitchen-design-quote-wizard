@@ -218,7 +218,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 ## Assumptions Made
 
 -   The app is designed to run on PHP version 8.1 or higher and utilizes Composer for dependency management.
--   Node.js and npm (or Yarn) are required for managing front-end assets such as JavaScript and CSS.
+-   Node.js and npm are required for managing front-end assets such as JavaScript and CSS.
 -   SQLite database is used for storing application data, with database migrations assumed to be run on setup.
 -   The user is expected to navigate the app sequentially through a wizard-style interface, filling out various forms.
 -   Default Laravel error handling (validation, CSRF protection) is used to secure user input and manage errors.
