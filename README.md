@@ -24,7 +24,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 ## Setup Instructions
 
 <details>
-<summary>### On Windows</summary>
+<summary>On Windows</summary>
 
 ### 1. Install PHP
 
@@ -81,13 +81,14 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 #### Verify Installation:
 
 -   Open **Command Prompt** or **PowerShell** and run:
-    ```bash
+`bash
     node -v
     npm -v
-    ```
+    `
+</details>
 
 <details>
-<summary>### On Mac</summary>
+<summary>On Mac</summary>
 
 ### 1. Install PHP
 
@@ -147,10 +148,11 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 #### Verify installation:
 
 -   Check the installed version:
-    ```bash
+`bash
     node -v
     npm -v
-    ```
+    `
+</details>
 
 ### 4. Clone the Repository
 
