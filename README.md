@@ -82,8 +82,17 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 #### Download Composer Installer:
 
--   Visit the [Composer download page](https://getcomposer.org/download/).
--   Click on **Composer-Setup.exe** to download the installer.
+-   As per [Composer download page](https://getcomposer.org/download/), to quickly install Composer in the current directory, run the following script in your terminal:
+    ```bash
+    php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+    php -r "if (hash_file('sha384', 'composer-setup.php') === 'dac665fdc30fdd8ec78b38b9800061b4150413ff2e3b6f88543c636f7cd84f6db9189d43a81e5503cda447da73c7e5b6') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+    php composer-setup.php
+    php -r "unlink('composer-setup.php');"
+    ```
+-   Most likely, you want to put the composer.phar into a directory on your PATH, so you can simply call composer from any directory (Global install), using for example:
+    ```bash
+    sudo mv composer.phar /usr/local/bin/composer
+    ```
 
 #### Run the Installer:
 
