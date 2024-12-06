@@ -171,13 +171,13 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ### 3. Install Dependencies
 
--   Open **Command Prompt** or **PowerShell** and install PHP dependencies using Composer:
+-   Run command to install PHP dependencies using Composer:
 
     ```bash
     composer install
     ```
 
--   Open another **Command Prompt** or **PowerShell** and install Node.js dependencies:
+-   Run command to install Node.js dependencies:
     ```bash
     npm install
     ```
