@@ -23,7 +23,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## Setup Instructions
 
-## 1. Install PHP
+### 1. Install PHP
 
 ### On Windows
 
@@ -76,7 +76,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
     brew link php
     ```
 
-## 2. Install Composer
+### 2. Install Composer
 
 ### On Windows
 
@@ -120,7 +120,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
     composer -v
     ```
 
-## 3. Install Node.js
+### 3. Install Node.js
 
 ### On Windows
 
@@ -154,7 +154,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
     npm -v
     ```
 
-## Install Dependencies
+### 4. Install Dependencies
 
 -   Open **Command Prompt** or **PowerShell** and install PHP dependencies using Composer:
 
@@ -168,7 +168,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
     node -v
     ```
 
-## Run the Laravel Application
+### 5. Run the Laravel Application
 
 -   Open **Command Prompt** or **PowerShell** and run:
 
