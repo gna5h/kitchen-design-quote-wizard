@@ -133,7 +133,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 #### Download Node.js:
 
--   Visit the Node.js official website.
+-   Visit the [Node.js official website](https://nodejs.org/en).
 -   Download and install the LTS version.
 
 #### Verify Installation:
