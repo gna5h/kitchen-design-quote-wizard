@@ -160,7 +160,6 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
     ```bash
     composer install
-
     ```
 
 -   Open another **Command Prompt** or **PowerShell** and install Node.js dependencies:
@@ -168,16 +167,22 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
     node -v
     ```
 
-### 5. Run the Laravel Application
+### 5. Migrate the Database
 
--   Open **Command Prompt** or **PowerShell** and run:
+-   Run the following command to apply the database migrations:
+    ```bash
+    php artisan migrate
+    ```
+
+### 6. Run the Laravel Application
+
+-   Start the Laravel development server by running:
 
     ```bash
     php artisan serve
-
     ```
 
--   Open another **Command Prompt** or **PowerShell** and run:
+-   In another terminal, compile the front-end assets for development by running:
     ```bash
     npm run dev
     ```
