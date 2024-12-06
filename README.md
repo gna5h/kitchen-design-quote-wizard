@@ -23,9 +23,10 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## Setup Instructions
 
-### 1. Install PHP
+<details>
+<summary>### On Windows</summary>
 
-### On Windows
+### 1. Install PHP
 
 #### Download PHP:
 
@@ -49,7 +50,46 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
     php -v
     ```
 
-### On Mac
+### 2. Install Composer
+
+#### Download Composer Installer:
+
+-   Visit the [Composer download page](https://getcomposer.org/download/).
+-   Click on **Composer-Setup.exe** to download the installer.
+
+#### Run the Installer:
+
+-   Launch the downloaded `Composer-Setup.exe`.
+-   During the installation:
+    -   Select the path to `php.exe` (e.g., `C:\php\php.exe`).
+    -   Ensure the option **Add Composer to PATH** is selected.
+
+#### Verify Installation:
+
+-   Open **Command Prompt** or **PowerShell** and run:
+    ```bash
+    composer -v
+    ```
+
+### 3. Install Node.js
+
+#### Download Node.js:
+
+-   Visit the [Node.js official website](https://nodejs.org/en).
+-   Download and install the LTS version.
+
+#### Verify Installation:
+
+-   Open **Command Prompt** or **PowerShell** and run:
+    ```bash
+    node -v
+    npm -v
+    ```
+
+<details>
+<summary>### On Mac</summary>
+
+### 1. Install PHP
 
 #### Install Homebrew (if not already installed):
 
@@ -78,37 +118,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ### 2. Install Composer
 
-### On Windows
-
-#### Download Composer Installer:
-
--   As per [Composer download page](https://getcomposer.org/download/), to quickly install Composer in the current directory, run the following script in your terminal:
-    ```bash
-    php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-    php -r "if (hash_file('sha384', 'composer-setup.php') === 'dac665fdc30fdd8ec78b38b9800061b4150413ff2e3b6f88543c636f7cd84f6db9189d43a81e5503cda447da73c7e5b6') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
-    php composer-setup.php
-    php -r "unlink('composer-setup.php');"
-    ```
-    -   The 4 lines above will, in order:
-        -   Download the installer to the current directory
-        -   Verify the installer SHA-384, which you can also [cross-check here](https://composer.github.io/pubkeys.html).
-        -   Run the installer
-        -   Remove the installer
--   Most likely, you want to put the composer.phar into a directory on your PATH, so you can simply call composer from any directory (Global install), using for example:
-    ```bash
-    sudo mv composer.phar /usr/local/bin/composer
-    ```
-
-#### Verify Installation:
-
--   Open **Command Prompt** or **PowerShell** and run:
-    ```bash
-    composer -v
-    ```
-
-### On Mac
-
-### Install Composer Globally:
+#### Install Composer Globally:
 
 -   Open the Terminal and run the following commands:
     -   Step 1: Download the Composer installer:
@@ -120,7 +130,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
         sudo mv composer.phar /usr/local/bin/composer
         ```
 
-### Verify Installation:
+#### Verify Installation:
 
 -   Open **Command Prompt** or **PowerShell** and run:
     ```bash
@@ -128,25 +138,6 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
     ```
 
 ### 3. Install Node.js
-
-### On Windows
-
-#### Download Node.js:
-
--   Visit the [Node.js official website](https://nodejs.org/en).
--   Download and install the LTS version.
-
-#### Verify Installation:
-
--   Open **Command Prompt** or **PowerShell** and run:
-    ```bash
-    node -v
-    npm -v
-    ```
-
-### On Mac
-
-#### Install PHP:
 
 -   Install Node.js with Homebrew:
     ```bash
