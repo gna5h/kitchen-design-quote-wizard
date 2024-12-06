@@ -23,6 +23,8 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## Setup Instructions
 
+### 1. Install Prerequisites
+
 <details>
 <summary>On Windows</summary>
 
@@ -154,7 +156,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
     `
 </details>
 
-### 4. Clone the Repository
+### 2. Clone the Repository
 
 -   Run the Command::
 
@@ -167,7 +169,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
     cd <project-folder>
     ```
 
-### 5. Install Dependencies
+### 3. Install Dependencies
 
 -   Open **Command Prompt** or **PowerShell** and install PHP dependencies using Composer:
 
@@ -180,14 +182,14 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
     npm install
     ```
 
-### 6. Migrate the Database
+### 4. Migrate the Database
 
 -   Run the following command to apply the database migrations:
     ```bash
     php artisan migrate
     ```
 
-### 7. Run the Laravel Application
+### 5. Run the Laravel Application
 
 -   Start the Laravel development server by running:
 
