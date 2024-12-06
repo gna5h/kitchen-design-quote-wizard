@@ -154,6 +154,34 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
     npm -v
     ```
 
+## Install Dependencies
+
+-   Open **Command Prompt** or **PowerShell** and install PHP dependencies using Composer:
+
+    ```bash
+    composer install
+
+    ```
+
+-   Open another **Command Prompt** or **PowerShell** and install Node.js dependencies:
+    ```bash
+    node -v
+    ```
+
+## Run the Laravel Application
+
+-   Open **Command Prompt** or **PowerShell** and run:
+
+    ```bash
+    php artisan serve
+
+    ```
+
+-   Open another **Command Prompt** or **PowerShell** and run:
+    ```bash
+    npm run dev
+    ```
+
 ## Assumptions Made
 
 -   The app is designed to run on PHP version 8.1 or higher and utilizes Composer for dependency management.
