@@ -89,6 +89,11 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
     php composer-setup.php
     php -r "unlink('composer-setup.php');"
     ```
+    -   The 4 lines above will, in order:
+        -   Download the installer to the current directory
+        -   Verify the installer SHA-384, which you can also [cross-check here](https://composer.github.io/pubkeys.html).
+        -   Run the installer
+        -   Remove the installer
 -   Most likely, you want to put the composer.phar into a directory on your PATH, so you can simply call composer from any directory (Global install), using for example:
     ```bash
     sudo mv composer.phar /usr/local/bin/composer
