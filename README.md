@@ -217,13 +217,13 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 -   The app is designed to run on PHP version 8.1 or higher and utilizes Composer for dependency management.
 -   Node.js and npm (or Yarn) are required for managing front-end assets such as JavaScript and CSS.
--   MySQL database is used for storing application data, and database migrations are assumed to be run on setup.
+-   SQLite database is used for storing application data, with database migrations assumed to be run on setup.
 -   The user is expected to navigate the app sequentially through a wizard-style interface, filling out various forms.
 -   Default Laravel error handling (validation, CSRF protection) is used to secure user input and manage errors.
 
 ## Brief Explanation of Technical Choices
 
 -   **Framework**: Laravel was chosen due to its robustness and rapid development features. It provides built-in tools like Eloquent ORM, Blade templating, and Artisan commands, which streamline common tasks like database migrations, authentication, and routing.
--   **Database**: MySQL was selected as the database for its widespread usage, ease of setup, and compatibility with Laravel’s built-in database features.
+-   **Database**: SQLite was selected for its simplicity and ease of use, especially in development environments. It requires minimal setup and configuration, making it ideal for smaller applications or local development environments. Laravel has excellent support for SQLite, and it integrates seamlessly with the Eloquent ORM.
 -   **Front-end**: Blade templating was used to efficiently generate dynamic HTML, while Tailwind CSS was chosen for styling due to its utility-first approach, making it easy to customize and responsive.
 -   **Testing**: PHPUnit was used for unit testing to ensure that the application logic works correctly. Feature tests were written for major user interactions to ensure that the app functions as expected across different environments.
