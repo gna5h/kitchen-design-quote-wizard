@@ -101,12 +101,12 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ### On Mac
 
-### - Install Composer Globally::
+### - Install Composer Globally:
 
 -   Open the Terminal and run the following commands:
     -   Step 1: Download the Composer installer:
         ```bash
-        composer -v
+        curl -sS https://getcomposer.org/installer | php
         ```
     -   Step 2: Move the Composer binary to a global location:
         ```bash
