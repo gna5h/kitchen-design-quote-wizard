@@ -151,10 +151,11 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 ##### Verify installation:
 
 -   Check the installed version:
-`bash
+    ```bash
     node -v
     npm -v
-    `
+    ```
+
 </details>
 
 ### 2. Clone the Repository
