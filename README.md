@@ -171,7 +171,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 -   Open another **Command Prompt** or **PowerShell** and install Node.js dependencies:
     ```bash
-    node -v
+    npm install
     ```
 
 ### 5. Migrate the Database
