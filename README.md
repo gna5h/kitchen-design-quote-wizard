@@ -94,13 +94,6 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
     sudo mv composer.phar /usr/local/bin/composer
     ```
 
-#### Run the Installer:
-
--   Launch the downloaded `Composer-Setup.exe`.
--   During the installation:
-    -   Select the path to `php.exe` (e.g., `C:\php\php.exe`).
-    -   Ensure the option **Add Composer to PATH** is selected.
-
 #### Verify Installation:
 
 -   Open **Command Prompt** or **PowerShell** and run:
